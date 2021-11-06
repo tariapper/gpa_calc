@@ -1,0 +1,12 @@
+{
+  "name": "UBLearns GPA Calculator",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://ublearns.buffalo.edu/ultra/grades"],
+      "js": ["jquery-3.6.0.min.js", "gpa.js"]
+    }
+  ]
+}
